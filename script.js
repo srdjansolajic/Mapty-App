@@ -34,10 +34,9 @@ class Workout {
       months[this.date.getMonth()]
     } ${this.date.getDate()}`;
   }
-
-  click() {
-    this.clicks++;
-  }
+  // click() {
+  //   this.clicks++;
+  // }
 }
 
 class Running extends Workout {
@@ -282,7 +281,7 @@ class App {
         duration: 1,
       },
     });
-    workout.click();
+    // workout.click();
   }
 
   _setLocalStorage() {
